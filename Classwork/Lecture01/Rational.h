@@ -40,7 +40,7 @@ private: //Private Access Specifier
             n = r;
         }
 
-        return r;
+        return m;
     }
 
     void format()
