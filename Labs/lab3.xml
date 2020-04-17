@@ -1,0 +1,55 @@
+<?xml version = “1.0” ?>
+<xml version="1.0"/>
+<civil servent>
+<name> kirakoe dramane </name>
+<age>44</age>
+<email> kirakoe.dramane@gmail.com</email>
+<relationship> family member<relatioship>
+<phone>5242426585</phone>
+<office> ks 503-ll</office>
+<office-hours> MoWe 08AM- 17pm</office-hopurs>
+</civil vervent>
+
+<?xml version = “1.0” ?>
+<farmer>
+<name> zongo moussa </name>
+<age>33</age>
+<email> <zongo.moussa@gmail.com</email>
+<relationship> friend<relatioship>
+<phone>68232023</phone>
+<office> gh-450</office>
+<office-hours> monday to friday 08AM- 17pm</office-hours>
+</farmer>
+
+<?xml version = “1.0” ?>
+<manager>
+<name> kisito hamed</name>
+<email> <kisito.hamed@gmail.com</email>
+<age>23</age>
+<phone>68232066</phone>
+<office> gh-47</office>
+<office-hours> monday to friday 08AM- 17pm</office-hours>
+</manager>
+
+<?xml version = “1.0” ?>
+<construction agent>
+<relationship> friend<relatioship>
+<name>kabore adama </name>
+<age>43</age>
+<email> <kabore.adama@gmail.com</email>
+<phone>77232023</phone>
+<office> gh-433</office>
+<office-hours> monday to saturday 08AM- 17pm
+</construction agent>
+
+<?xml version = “1.0” ?>
+<taxi driver>
+<name>ouedraogo salam </name>
+<email> <ouedraogo.salam@gmail.com</email>
+<age>22<age/>
+<relationship> friend<relatioship>
+<phone>77232055</phone>
+<office> pph-403</office>
+<office-hours> monday to saturday 06AM- 17pm
+</taxi driver>
+
