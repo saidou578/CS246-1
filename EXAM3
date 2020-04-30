@@ -1,0 +1,104 @@
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
+#include "Array.h"
+#include "Node.h"
+#include "Pair.h"
+#include "Iterator.h"
+#include "List.h"
+#include "Set.h"
+#include "Stack.h"
+#include "Queue.h"
+#include "Deque.h"
+#include "Map.h"
+#include "HashTable.h"
+
+//Question 1
+vector<int> BoundedMode(vector<int>&data,int upb) {
+vector<int>ans;
+if(upb < 1) 
+return ans;
+
+int hash[up b+1] = {0};
+int mx = -1; 
+for(int i=0;i<data.size();i++) {
+hash[data[i]]++; 
+if(mx < hash[data[i]]) 
+mx = hash[data[i]];
+}
+if(mx <= 1) 
+return ans;
+
+for(int i=0;i<=upb;i++) {
+if(hash[i] == mx)
+ans.push_back(i);
+}
+return ans; 
+}
+int main() {
+vector<int> v{7,2,4,3,2,8,3,9,3,2,9,4,2,5,3};
+vector<int> ans = BoundedMode(v,9); 
+cout<<"Mode: ";
+for(int i=0;i<ans.size();i++)
+cout<<ans[i]<<" ";
+cout<<"\n";
+return 0;
+}
+//Question 2
+
+struct Point
+{
+	int x;
+	int y;
+};
+
+int PointToIndex(Point& p)
+{
+	return (p.x - 1) * 8 + (p.y - 1);
+}
+
+bool RookMove(ds::da::Vector<int>& bd,Point& s,Point& e)
+{
+	return false;
+}
+
+//Question 3
+
+bool IsValidParentheses(std::string str)
+{
+	return false;
+}
+
+//Question 4
+
+
+template <class  T>
+void InsertionSort(ds::dn::Node<T>* root)
+{
+
+   Node<T>* sorted = NULL;
+Node<T>* current = root;
+while (current != NULL) {
+Node<T>* next = current->next;
+current->prev = NULL;
+       current->next = NULL;
+sortedHepler(&sorted, current);
+current = next;
+}
+
+root = sorted;
+}
+	
+//Question 5
+
+template <typename T>
+bool IsProperSubSet(ds::da::Set<T>& A,ds::da::Set<T>& B)
+{
+	return false;
+}
+
+int main()
+{
+	return 0;
+}
